@@ -1,0 +1,264 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #2e2e2e;
+    color: #fff;
+    padding: 20px;
+}
+
+header {
+    background: #4b0082;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    border-radius: 10px;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+    font-size: 2.5rem;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.sidebar, .content, .pre-evolution-stats {
+    background: #4b0082; 
+    border-radius: 10px;
+}
+
+.sidebar {
+    flex: 1;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.sidebar img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.pre-evolutions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.pre-evolution {
+    margin-bottom: 20px;
+}
+
+.pre-evolution img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.content {
+    flex: 2; 
+}
+
+.pre-evolution-stats {
+    flex: 1; 
+}
+
+.content h2, .content h3, .pre-evolution-stats h2 {
+    color: #dda0dd; 
+    margin-bottom: 10px;
+}
+
+.content p, .pre-evolution-stats p {
+    margin-bottom: 20px;
+}
+
+.content ul, .pre-evolution-stats ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.content table, .pre-evolution-stats table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.content table, .pre-evolution-stats table, .content th, .content td, .pre-evolution-stats th, .pre-evolution-stats td {
+    border: 1px solid #777;
+}
+
+.content th, .content td, .pre-evolution-stats th, .pre-evolution-stats td {
+    padding: 10px;
+    text-align: left;
+}
+
+footer {
+    background: #4b0082;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+
+.contact-form {
+    background: #5c2e91;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.contact-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #777;
+    border-radius: 4px;
+    background: #4b0082;
+    color: #fff;
+}
+
+.contact-form button {
+    background: #dda0dd;
+    color: #4b0082;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #e6b3e6;
+}
+
+
+@media (max-width: 1024px) {
+    header nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    header {
+        text-align: left;
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    header nav ul li {
+        margin: 10px 0;
+    }
+
+    .contact-form {
+        padding: 15px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        padding: 8px;
+    }
+
+    .contact-form button {
+        padding: 8px 15px;
+    }
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #2e2e2e;
+    color: #fff;
+    padding: 20px;
+}
+
+header {
+    background: #4b0082;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    border-radius: 10px;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+    font-size: 2.5rem;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.sidebar, .content, .pre-evolution-stats {
+    background: #4b0082;
+    padding: 20px;
+    border:
+
+    
