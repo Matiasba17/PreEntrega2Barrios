@@ -124,7 +124,6 @@ footer {
     border-radius: 10px;
 }
 
-
 .contact-form {
     background: #5c2e91;
     padding: 20px;
@@ -160,7 +159,6 @@ footer {
 .contact-form button:hover {
     background: #e6b3e6;
 }
-
 
 @media (max-width: 1024px) {
     header nav ul li {
@@ -208,57 +206,44 @@ footer {
     }
 }
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+
+
+.haunter {
+    position: relative;
+    top: 350px;
 }
 
-body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    background-color: #2e2e2e;
-    color: #fff;
-    padding: 20px;
+.juejue {
+    position: relative;
+    top: 360px;
 }
 
-header {
-    background: #4b0082;
-    color: #fff;
-    padding: 1rem 0;
-    text-align: center;
-    border-radius: 10px;
+.poder {
+    position: relative;
+    top: 370px;
 }
 
-header h1 {
-    margin-bottom: 0.5rem;
-    font-size: 2.5rem;
+.levitar {
+    position: relative;
+    top: 380px;
 }
 
-header nav ul {
-    list-style: none;
-    padding: 0;
+.fantasma {
+    transform: translateY(150px);
 }
 
-header nav ul li {
-    display: inline;
-    margin: 0 10px;
+.titere {
+    position: relative;
+    top: 140px;
 }
 
-header nav ul li a {
-    color: #fff;
-    text-decoration: none;
+.ada {
+    position: relative;
+    top: 150px;
 }
 
-main {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 20px 0;
+
+.wela {
+    position: relative;
+    top: 160px; 
 }
-
-.sidebar, .content, .pre-evolution-stats {
-    background: #4b0082;
-    padding: 20px;
-    border:
-
-    
